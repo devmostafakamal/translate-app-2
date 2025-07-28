@@ -36,7 +36,9 @@ textarea {
 .controls {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 10px;
 }
 .controls li {
   list-style: none;
@@ -44,6 +46,7 @@ textarea {
 .icons {
   display: flex;
   gap: 20px;
+  font-size: 15px;
 }
 .row-from {
   display: flex;
@@ -54,7 +57,7 @@ textarea {
   gap: 20px;
 }
 .btn {
-  width: 60%;
+  width: 100%;
   padding: 8px;
   background-color: chartreuse;
   border: none;
@@ -63,9 +66,19 @@ textarea {
   border-radius: 5px;
   display: block;
   margin: 0 auto;
+  color: white;
+  margin-top: 10px;
 }
-@media (max-width: 660px) {
+@media (max-width: 640px) {
   .text-input {
     flex-direction: column;
+  }
+}
+@media (max-width: 340px) {
+  .controls {
+    flex-direction: column;
+  }
+  .icons {
+    gap: 10px;
   }
 }
