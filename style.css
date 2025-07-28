@@ -77,8 +77,9 @@ textarea {
 @media (max-width: 340px) {
   .controls {
     flex-direction: column;
+    align-items: stretch;
   }
-  .icons {
-    gap: 10px;
+  .controls li {
+    margin-bottom: 10px;
   }
 }
