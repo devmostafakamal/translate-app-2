@@ -74,7 +74,7 @@ textarea {
     flex-direction: column;
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 375px) {
   .controls {
     flex-direction: column;
     align-items: stretch;
